@@ -2,6 +2,12 @@ package arrays.crush;
 
 import java.util.List;
 
+/**
+ * This problem is from HackerRank:
+ * <a href="https://www.hackerrank.com/challenges/crush/problem">Algorithmic Crush</a>
+ *
+ *
+ */
 class Crush {
 
     /*
