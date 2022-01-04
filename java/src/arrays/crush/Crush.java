@@ -1,6 +1,5 @@
 package arrays.crush;
 
-import java.util.Arrays;
 import java.util.List;
 
 class Crush {
@@ -14,27 +13,28 @@ class Crush {
      *  2. 2D_INTEGER_ARRAY queries
      */
     public static long arrayManipulation(int n, List<List<Integer>> queries) {
-        long[] arr = new long[n];
-        long max = 0;
-        System.out.println(Arrays.toString(arr));
-        System.out.println("Size: " + queries.size());
+            int m = queries.size();
+            System.out.println(queries.size());
 
-        for (int i = 0; i < queries.size(); i++) {
-            System.out.println("Query: " + i + " " + queries.get(i));
-            List<Integer> query = queries.get(i);
-            int start = query.get(0).intValue();
-            int end = query.get(1).intValue();
-            long val = query.get(2).longValue();
+            long[] arr = new long[n + 1];
 
-            for (int j = start; j < end + 1; j++) {
-                arr[j - 1] = arr[j - 1] + val;
-                if (arr[j - 1] > max) {
-                    max = arr[j - 1];
-                }
+            while (m-- > 0) {
+                List<Integer> query = queries.get(m);
+                int a = query.get(0);
+                int b = query.get(1);
+                int k = query.get(2);
+                arr[a - 1] += k;
+                arr[b] -= k;
             }
-            System.out.println(Arrays.toString(arr));
-        }
-        return max;
+
+            long sum = 0;
+            long max = 0;
+            for (int i = 0; i < n; i++) {
+                sum += arr[i];
+                max = Math.max(max, sum);
+            }
+
+            return max;
     }
 
 }
