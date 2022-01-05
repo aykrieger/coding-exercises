@@ -19,6 +19,24 @@ class Crush {
      *  2. 2D_INTEGER_ARRAY queries
      */
     public static long arrayManipulation(int n, List<List<Integer>> queries) {
+                /*
+        For this problem we are not combining each given array in the queries list and
+        combining it into a single array that stores every value at every index. That
+        would take O(n + m) time and space complexity. Instead, we are storing the
+        beginning
+        and end index of each given array in our "diff-array" (I just created that term)
+        and the value to increment or decrement our rolling sum. After we store all of
+        the given arrays in the diff-array, we then start at index 0 in the diff-array
+        and increment our rolling sum with the positive values and decrement our rolling
+        sum with the negative values. When we reach the end of the diff-array, our
+        rolling sum will be the max value we are looking for.
+
+        This solution only takes O(n + m) time and space complexity.
+
+        I like to think of this as storing the "diffs" for each array we are given
+
+        We will use indicies 0 to "n + 1".
+        */
             int m = queries.size();
             System.out.println(queries.size());
 
