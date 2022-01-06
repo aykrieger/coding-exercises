@@ -33,7 +33,7 @@ public class CrushReader {
             }
         });
 
-        long result = Crush.arrayManipulation(n, queries);
+        long result = Crush.arrayManipulationImproved(n, queries);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
