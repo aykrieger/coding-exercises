@@ -1,8 +1,8 @@
 ## Solution
 
-The simple solution to this problem is to create an array of size `n` and add the value `k` to each array element between the given indices, inclusive. After we go through each query we can calculate the max value by iterating over every element of the array and checking if that element is larger than the current max value.
+The simple solution to this problem is to create an array of size *n* and add the value *k* to each array element between the given indices, inclusive. After we go through each query we can calculate the max value by iterating over every element of the array and checking if that element is larger than the current max value.
 
-This solution works, but it takes `O(n * m)` time.
+This solution works, but it takes *O(n * m)* time.
 
 In order to reduce our runtime, we will have to get creative.
 
@@ -22,14 +22,18 @@ Here is our sample input:
 3 4 100
 ```
 
-`n = 5`
+*n = 5*
 
-We start by creating an array of size `n + 1`:
+We start by creating an array of size *n + 1*:
 
 ```
 Index ->  1  2  3  4  5  6
          [0, 0, 0, 0, 0, 0]
 ```
+
+We treat this array as 1-indexed so the first index is at *arr[0]*.  In our code, we add value *k* to *arr[a - 1]*. When *a = 1*, we add *k* to our first index *arr[0]*. The next step is to subtract value *k* from *arr[b]*. When *b = 5*, we subtract *k* from the last index in our example (index 6) at *arr[5]*. We subtract *k* from *a[b]* instead of *a[b - 1]* because our interval defined from *a* to *b* is *inclusive*. If we subtracted *k* from *arr[b - 1]*, then we would excluding the index at *a[b]* and that would effect our max value calculation at the end.
+
+
 
 We read the first query and get:
 
@@ -37,7 +41,14 @@ We read the first query and get:
 `b = 2`
 `k = 100`
 
-We will treat this array as 1-indexed so index 1 will be at `arr[0]`.  In our code, the beginning index where we add the value to our array is at `arr[a - 1]`. For this example, the beginning index is at `arr[0]` when the `a = 1` and the beginning index is at `arr[9]` when `a = `  
+
+
+
+
+In our code, the beginning index where we add the value to our array is at `arr[a - 1]`. 
+
+
+For this example, the beginning index is at `arr[0]` when the `a = 1` and the beginning index is at `arr[9]` when `a = `
 
 
 
