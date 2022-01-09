@@ -6,9 +6,19 @@ This solution works, but it takes *O(n * m)* time.
 
 In order to reduce our runtime, we will have to get creative.
 
-Instead of adding the given value to each element in our array, we will add the value to the given beginning index (a) and subtract the value from the given end index (b). 
+Instead of incrementing each element in the range, we will add the value to the beginning index, *a*, and subtract the value from the end index, *b*. 
 
 After we go through each of the queries, we can calculate the max value. To do this we iterate over every index in the array and calculate the rolling sum of every index.
+
+
+
+
+
+
+
+
+
+
 
 It's difficult to visualize this, so let's go through an example.
 
@@ -31,31 +41,21 @@ Index ->  1  2  3  4  5  6
          [0, 0, 0, 0, 0, 0]
 ```
 
-We treat this array as 1-indexed so the first index is at *arr[0]*.  In our code, we add value *k* to *arr[a - 1]*. When *a = 1*, we add *k* to our first index *arr[0]*. The next step is to subtract value *k* from *arr[b]*. When *b = 5*, we subtract *k* from the last index in our example (index 6) at *arr[5]*. We subtract *k* from *a[b]* instead of *a[b - 1]* because our interval defined from *a* to *b* is *inclusive*. If we subtracted *k* from *arr[b - 1]*, then we would excluding the index at *a[b]* and that would effect our max value calculation at the end.
-
-
-
-We read the first query and get:
-
-`a = 1`
-`b = 2`
-`k = 100`
 
 
 
 
+In our code, we add the value *k* to *arr[a - 1]*, so when *a = 1*, we add *k* to index 1. The next step is to subtract value *k* from *arr[b]*. When *b = 5*, we subtract *k* from the last index in our example (index 6) at *arr[5]*. We subtract *k* from *a[b]* instead of *a[b - 1]* because our interval defined from *a* to *b* is *inclusive*. If we subtracted *k* from *arr[b - 1]*, then we would be excluding the index at *a[b]* and would 
 
-In our code, the beginning index where we add the value to our array is at `arr[a - 1]`. 
+Let's get back to our example. We read the first query and get:
 
+```
+a = 1
+b = 2
+k = 100
+```
 
-For this example, the beginning index is at `arr[0]` when the `a = 1` and the beginning index is at `arr[9]` when `a = `
-
-
-
-
-
-
-We add 100 to the beginning index (`arr[a - 1]` from our code) and subtract 100 from our end index (`arr[b]` from our code):
+When we add *k* to *arr[0]* (*arr[a - 1]*) and subtract *k* from *arr[2]*, our array 
 
 ```
 [100, -100, 0, 0, 0, 0]
