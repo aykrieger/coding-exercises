@@ -20,13 +20,11 @@ class Crush {
         for (List<Integer> query : queries) {
             int start = query.get(0);
             int end = query.get(1);
-            long val = query.get(2).longValue();
+            long val = query.get(2);
 
-            for (int j = start; j < end + 1; j++) {
-                arr[j - 1] = arr[j - 1] + val;
-                if (arr[j - 1] > max) {
-                    max = arr[j - 1];
-                }
+            for (int i = start; i < end + 1; i++) {
+                arr[i - 1] = arr[i - 1] + val;
+                max = Math.max(max, arr[i - 1]);
             }
             System.out.println(Arrays.toString(arr));
         }

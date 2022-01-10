@@ -1,10 +1,84 @@
 ## Solution
 
-The simple solution to this problem is to create an array of size *n* and add the value *k* to each array element between the given indices, inclusive. After we go through each query we can calculate the max value by iterating over every element of the array and checking if that element is larger than the current max value.
+The simple solution to this problem is to create an array of size *n* and add the value *k* to each array element between the given indices, inclusive. While we're adding *k* to our array elements, we check if the sum of the current element and *k* is larger than our max value. If it is, we replace the max value with the sum we just calculated.
 
-This solution works, but it takes *O(n * m)* time.
+Here is the simple solution in Java:
+
+```java
+long[] arr = new long[n];
+long max = 0;
+
+for (List<Integer> query : queries) {
+	int start = query.get(0);
+ 	int end = query.get(1);
+	long val = query.get(2);
+
+	for (int i = start; i < end + 1; i++) {
+		arr[i - 1] = arr[i - 1] + val;
+		max = Math.max(max, arr[i - 1]);
+	}
+}
+return max;
+```
+
+This solution works, but it takes *O(n × m)* time because in the worst case scenario we're updating *n* rows of our array *m* times.
 
 In order to reduce our runtime, we will have to get creative.
+
+Instead of adding *k* to each array element between the left and right indices, we're going to add *k* to the left index and subtract *k* from the element immediately to the right of the right index.  
+
+Let's say *n = 3* and our first query is:
+
+```
+a = 1
+b = 3
+k = 7
+```
+
+In our simple solution we would create an array with *n* (3) elements and add *k* (7) to each element between indices *a* (1) and *b* (3), inclusive:
+
+```
+Simple Solution
+
+index -> 1  2  3
+        [7, 7, 7]
+```
+
+In our new solution we start by creating an array with *n + 1* (4) elements. For each query, we add *k* (7) to index *a* (1) and subtract *k* (7) from index *b + 1* (4).
+
+```
+New Solution
+
+index -> 1   2   3   4
+        [7,  0,  0, -7]
+```
+
+Here is our new solution so far:
+
+```java
+long[] arr = new long[n + 1];
+
+for (int i = 0; i < queries.size(); i++) {
+	List<Integer> query = queries.get(i);
+	int a = query.get(0);
+	int b = query.get(1);
+	int k = query.get(2);
+	arr[a - 1] += k; 
+ 	arr[b] -= k;
+}
+```
+
+In our code, `arr[a - 1]` essentially points to element *a* in our example (the *-1* is there because the given indices are 1-indexed). 
+
+
+
+
+
+To find the max value in our new solution, we loop through every index and 
+
+
+
+
 
 Instead of incrementing each element in the range, we will add the value to the beginning index, *a*, and subtract the value from the end index, *b*. 
 
