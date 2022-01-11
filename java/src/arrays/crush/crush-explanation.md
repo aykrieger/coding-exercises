@@ -135,3 +135,5 @@ When we add *k* to *arr[0]* (*arr[a - 1]*) and subtract *k* from *arr[2]*, our a
 [100, -100, 0, 0, 0, 0]
 ```
 
+
+## No writing for today, I set up my dev enviornment on bluearch
