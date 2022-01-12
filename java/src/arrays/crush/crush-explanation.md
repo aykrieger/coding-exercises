@@ -49,8 +49,8 @@ In our new solution we start by creating an array with *n + 1* (4) elements. For
 ```
 New Solution
 
-index -> 1   2   3   4
-        [7,  0,  0, -7]
+index -> 1  2  3  4
+        [7, 0, 0, -7]
 ```
 
 Here is our new solution so far:
@@ -68,71 +68,52 @@ for (int i = 0; i < queries.size(); i++) {
 }
 ```
 
-In our code, `arr[a - 1]` essentially points to element *a* in our example (the *-1* is there because the given indices are 1-indexed). 
+In our problem statement, the given indices are 1-indexed, and in our code, the array is 0-indexed. So instead of adding *k* to *a*, we add *k* to *arr[a - 1]*. Instead of subtracting *k* from *b + 1*, we subtract *k* from *arr[b]*.
 
-
-
-
-
-To find the max value in our new solution, we loop through every index and 
-
-
-
-
-
-Instead of incrementing each element in the range, we will add the value to the beginning index, *a*, and subtract the value from the end index, *b*. 
-
-After we go through each of the queries, we can calculate the max value. To do this we iterate over every index in the array and calculate the rolling sum of every index.
-
-
-
-
-
-
-
-
-
-
-
-It's difficult to visualize this, so let's go through an example.
-
-Here is our sample input:
+Back to our example. Here's our array after the first update in the new solution:
 
 ```
-5 3
-
-1 2 100
-2 5 100
-3 4 100
+index -> 1   2   3   4
+        [7,  0,  0, -7]
 ```
 
-*n = 5*
-
-We start by creating an array of size *n + 1*:
+Let's say the next query is:
 
 ```
-Index ->  1  2  3  4  5  6
-         [0, 0, 0, 0, 0, 0]
+a = 3
+b = 3
+k = 5
 ```
 
-
-
-
-
-In our code, we add the value *k* to *arr[a - 1]*, so when *a = 1*, we add *k* to index 1. The next step is to subtract value *k* from *arr[b]*. When *b = 5*, we subtract *k* from the last index in our example (index 6) at *arr[5]*. We subtract *k* from *a[b]* instead of *a[b - 1]* because our interval defined from *a* to *b* is *inclusive*. If we subtracted *k* from *arr[b - 1]*, then we would be excluding the index at *a[b]* and would 
-
-Let's get back to our example. We read the first query and get:
+After the update, our array will look like:
 
 ```
-a = 1
+index -> 1  2  3  4
+        [7, 0, 5, -12]
+```
+
+The next query is:
+
+```
+a = 2
 b = 2
-k = 100
+k = 10
 ```
 
-When we add *k* to *arr[0]* (*arr[a - 1]*) and subtract *k* from *arr[2]*, our array 
+And after the final update:
 
 ```
-[100, -100, 0, 0, 0, 0]
+index -> 1   2   3   4
+        [7,  10, -5, -12]
+```
+
+To find the max value in our new solution, we loop through our array from left to right and add that value to our *sum* variable. We store the max value we've seen so far in our *max* variable and when we reach the end of the array we've arrived at our answer.
+
+```
+index -> 1   2   3   4
+        [7,  10, -5, -12]
+sum   -> 7   17  12  0
+max   -> 7   17  17  17
 ```
 
 
