@@ -1,6 +1,6 @@
 ## Solution
 
-The simple solution to this problem is to create an array of size *n* and add the value *k* to each array element between the given indices, inclusive. While we're adding *k* to our array elements, we check if the sum of the current element and *k* is larger than our max value. If it is, we replace the max value with the sum we just calculated.
+The simple solution to this problem is to create an array of size *n* and add the value *k* to each array element between the given indices, inclusive. While we're adding *k* to our array elements, we keep track of the largest value we've seen with a variable, *max*, and update it whenever we see a larger value.
 
 Here is the simple solution in Java:
 
@@ -21,7 +21,9 @@ for (List<Integer> query : queries) {
 return max;
 ```
 
-This solution works, but it takes *O(n × m)* time because in the worst case scenario we're updating *n* rows of our array *m* times.
+This solution works, but its runtime is *O(n × m)* because in the worst case scenario we're updating *n* rows of our array *m* times.
+
+The space complexity is *O(n)* because we're storing an an array of *n* elements.
 
 In order to reduce our runtime, we will have to get creative.
 
@@ -107,7 +109,7 @@ index -> 1   2   3   4
         [7,  10, -5, -12]
 ```
 
-To find the max value in our new solution, we loop through our array from left to right and add that value to our *sum* variable. We store the max value we've seen so far in our *max* variable and when we reach the end of the array we've arrived at our answer.
+To find the max value in our new solution, we loop through our array from left to right and add each element to a *sum* variable. We also store the max value we've seen so far in a *max* variable.
 
 ```
 index -> 1   2   3   4
@@ -116,5 +118,27 @@ sum   -> 7   17  12  0
 max   -> 7   17  17  17
 ```
 
+The value of *max* is 17 when we reach the end of the array and that's our answer. Here is the code for the full solution:
 
-## No writing for today, I set up my dev enviornment on bluearch
+```java
+long[] arr = new long[n + 1];
+
+for (int i = 0; i < queries.size(); i++) {
+	List<Integer> query = queries.get(i);
+	int a = query.get(0);
+	int b = query.get(1);
+	int k = query.get(2);
+	arr[a - 1] += k; 
+ 	arr[b] -= k;
+}
+
+long sum = 0;
+long max = 0;
+for (int i = 0; i < n; i++) {
+	sum += arr[i];
+	max = Math.max(max, sum);
+}
+ 
+return max;
+```
+
