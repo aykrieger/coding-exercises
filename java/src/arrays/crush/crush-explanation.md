@@ -25,6 +25,25 @@ This solution works, but its runtime is *O(n × m)* because in the worst case sc
 
 The space complexity is *O(n)* because we're storing an an array of *n* elements.
 
+How can we improve this?
+
+### Efficient Solution
+
+I began to think of a more efficient solution to this problem. What is the bare minimum amount of data I need to store? Can I get away with storing less than *n* elements?
+
+I thought of a solution where instead of using an array of size *n*, I would create a hashmap that maps each index we update to its value. That would save some space in the case where *n* is large and *m* is small. It would take up more space than a simple array when *m* is as large or larger than *n* though. Similarly, the runtime would be better when than the simple array solution if the final array is sparse, and worse when the final array is dense.
+
+I think an array of size *n* is the best we can do in the worst case scenario.
+
+
+
+
+
+
+
+
+
+
 In order to reduce our runtime, we will have to get creative.
 
 Instead of adding *k* to each array element between the left and right indices, we're going to add *k* to the left index and subtract *k* from the element immediately to the right of the right index.  
