@@ -39,7 +39,7 @@ How can we reduce the runtime?
 
 I thought about how updating every element between *a* and *b* could be made more efficient. What if we stored *k* and the difference between *a* and *b* at index *a* in a list?
 
-For example, *n* is 3 and our first query is:
+For example, if *n* is 3 and our first query is:
 
 ```
 a = 1
@@ -53,7 +53,7 @@ We would create a list of *n* elements and store this query as:
 [ [5, 2], [0, 0], [0, 0] ]
 ```
 
-Then to calculate the max value we would iterate over every element in the list. The first element would tell us this index's value is 5 and we need to add 5 to the next two elements. 
+With *k* = 5 and *b - a = 2*. Then to calculate the max value we would iterate over every element in the list. The first element would tell us this index's value is 5 and we need to add 5 to the next two elements. 
 
 Wait, that wouldn't work. What if the next query was:
 
@@ -63,7 +63,7 @@ b = 2
 k = 7
 ```
 
-We can't store two different of *k* with different ranges at the first index. What if we created a two dimensional dynamic list like this?
+We can't store two different values of *k* with different ranges at the first index. What if we created a two dimensional dynamic list like this?
 
 ```
 [ [5, 2], [0, 0], [0, 0] ]
@@ -72,119 +72,63 @@ We can't store two different of *k* with different ranges at the first index. Wh
   [7, 1]
 ```
 
-That begins to make things complicated. I knew I was on the right track with storing the indices and *k* in an array, but calculating the max value from this data structure would not be easy. I would have to make multiple stacks and pop elements in the right order and take into account overlapping query ranges. I don't think this would more efficient than the simple solution.
+That begins to make things complicated. I would have to make multiple stacks and pop elements in the right order to take into account overlapping query ranges. I don't think this would more efficient than the simple solution.
 
 I looked to the Internet for a tip.
 
+### Efficient Solution
 
-
-
-No, that wouldn't work. If we encountered any two queries that had the same values for *a* or *b*, we wouldn't be able to store that in our array. If we used a different data structure to store multiple 
-
-
-
-
-
-
-
-
-
-
-
-In order to reduce our runtime, we will have to get creative.
-
-Instead of adding *k* to each array element between the left and right indices, we're going to add *k* to the left index and subtract *k* from the element immediately to the right of the right index.  
-
-Let's say *n = 3* and our first query is:
+I read a creative solution where they they solved the problem of overlapping indices. Let's go back to our example where *n* is 3 and our first query is:
 
 ```
 a = 1
 b = 3
-k = 7
-```
-
-In our simple solution we would create an array with *n* (3) elements and add *k* (7) to each element between indices *a* (1) and *b* (3), inclusive:
-
-```
-Simple Solution
-
-index -> 1  2  3
-        [7, 7, 7]
-```
-
-In our new solution we start by creating an array with *n + 1* (4) elements. For each query, we add *k* (7) to index *a* (1) and subtract *k* (7) from index *b + 1* (4).
-
-```
-New Solution
-
-index -> 1  2  3  4
-        [7, 0, 0, -7]
-```
-
-Here is our new solution so far:
-
-```java
-long[] arr = new long[n + 1];
-
-for (int i = 0; i < queries.size(); i++) {
-	List<Integer> query = queries.get(i);
-	int a = query.get(0);
-	int b = query.get(1);
-	int k = query.get(2);
-	arr[a - 1] += k; 
- 	arr[b] -= k;
-}
-```
-
-In our problem statement, the given indices are 1-indexed, and in our code, the array is 0-indexed. So instead of adding *k* to *a*, we add *k* to *arr[a - 1]*. Instead of subtracting *k* from *b + 1*, we subtract *k* from *arr[b]*.
-
-Back to our example. Here's our array after the first update in the new solution:
-
-```
-index -> 1   2   3   4
-        [7,  0,  0, -7]
-```
-
-Let's say the next query is:
-
-```
-a = 3
-b = 3
 k = 5
 ```
 
-After the update, our array will look like:
+We create an array of size *n + 1*. Then we add *k* to index *a* and subtract *k* from index *b + 1*. Here is what our array would look like:
 
 ```
-index -> 1  2  3  4
-        [7, 0, 5, -12]
+[5, 0, 0, -5]
 ```
 
-The next query is:
+To find our max value, we first keep track of a new value called *sum*. We iterate over our array and add the value at the current index to *sum*. At every index we check if *sum* is larger than our current max value. When we reach the end of our array, we will have the maximum value.
+
+Let's find the max value of our example. I labeled what our values for *sum* and *max* are at every index:
 
 ```
-a = 2
+       [5, 0, 0, -5]
+sum ->  5  5  5  0
+max ->  5  5  5  5
+```
+
+At the first index, we add 5 to our sum, then add 0, add 0, and add -5 at the last index. The max value *sum* reached was 5, and that's our answer.
+
+What happens when our second query is:
+
+```
+a = 1
 b = 2
-k = 10
+k = 7
 ```
 
-And after the final update:
+We add 7 to index *a* (1), subtract 7 from index *b + 1* (3), and go through the same process to calculate the max value. Here is our array:
 
 ```
-index -> 1   2   3   4
-        [7,  10, -5, -12]
+[12, 0, -7, -5]
 ```
 
-To find the max value in our new solution, we loop through our array from left to right and add each element to a *sum* variable. We also store the max value we've seen so far in a *max* variable.
+Here are *sum* and *max* at every index:
 
 ```
-index -> 1   2   3   4
-        [7,  10, -5, -12]
-sum   -> 7   17  12  0
-max   -> 7   17  17  17
+       [12,   0,  -7,  -5]
+sum ->  12   12    5    0
+max ->  12   12   12   12
 ```
 
-The value of *max* is 17 when we reach the end of the array and that's our answer. Here is the code for the full solution:
+When we reach the end of the array, *max* is 12 and that is our answer.
+
+Here is the efficient solution in Java:
 
 ```java
 long[] arr = new long[n + 1];
@@ -194,8 +138,8 @@ for (int i = 0; i < queries.size(); i++) {
 	int a = query.get(0);
 	int b = query.get(1);
 	int k = query.get(2);
-	arr[a - 1] += k; 
- 	arr[b] -= k;
+	arr[a - 1] += k;
+	arr[b] -= k;
 }
 
 long sum = 0;
@@ -204,7 +148,27 @@ for (int i = 0; i < n; i++) {
 	sum += arr[i];
 	max = Math.max(max, sum);
 }
- 
+
 return max;
 ```
+
+What is the runtime and space complexity of our efficient solution?
+
+The runtime of our algorithm is *O(n + m)* because we have to initially add *2m* values to our array and then iterate over *n* elements to calculate the max value.
+
+The space complexity is the same as our simple solution, *O(n)*, because we're storing an array of size *n + 1*.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
