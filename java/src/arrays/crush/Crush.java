@@ -14,19 +14,16 @@ class Crush {
     public static long arrayManipulationSimple(int n, List<List<Integer>> queries) {
         long[] arr = new long[n];
         long max = 0;
-        System.out.println(Arrays.toString(arr));
-        System.out.println("Size: " + queries.size());
 
         for (List<Integer> query : queries) {
-            int start = query.get(0);
-            int end = query.get(1);
-            long val = query.get(2);
+            int a = query.get(0);
+            int b = query.get(1);
+            long k = query.get(2);
 
-            for (int i = start; i < end + 1; i++) {
-                arr[i - 1] = arr[i - 1] + val;
+            for (int i = a; i < b + 1; i++) {
+                arr[i - 1] = arr[i - 1] + k;
                 max = Math.max(max, arr[i - 1]);
             }
-            System.out.println(Arrays.toString(arr));
         }
         return max;
     }
@@ -43,7 +40,6 @@ class Crush {
         long[] arr = new long[n + 1];
 
         for (int i = 0; i < queries.size(); i++) {
-            System.out.println(Arrays.toString(arr));
             List<Integer> query = queries.get(i);
             int a = query.get(0);
             int b = query.get(1);
@@ -51,7 +47,6 @@ class Crush {
             arr[a - 1] += k;
             arr[b] -= k;
         }
-        System.out.println(Arrays.toString(arr));
 
         long sum = 0;
         long max = 0;
