@@ -12,4 +12,4 @@ Feel free to ask any questions or make suggestions!
 
 ### String Manipulation
 
-[Special String Again Problem](https://www.hackerrank.com/challenges/special-palindrome-again) : [Solution]()
+[Special String Again Problem](https://www.hackerrank.com/challenges/special-palindrome-again) : [Solution](https://github.com/aykrieger/coding-exercises/blob/f7d8cc1bfcb1c6adf48fc5ffaf5c45eb67433079/java/src/string/manipulation/SpecialStringAgain.java)
