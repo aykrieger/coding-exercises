@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @see <a href="https://www.hackerrank.com/challenges/special-palindrome-again">Special String Again</a>
+ * @see <a href="https://www.hackerrank.com/challenges/special-palindrome-again">Reverse Shuffle Merge</a>
  */
 class ReverseShuffleMerge {
 
