@@ -15,7 +15,6 @@ public class MinimumAbsoluteDifferenceInAnArray {
    * The function is expected to return an INTEGER.
    * The function accepts INTEGER_ARRAY arr as parameter.
    */
-
   public static int minimumAbsoluteDifference(List<Integer> arr) {
     Collections.sort(arr);
     int minDifference = Math.abs(arr.get(1) - arr.get(0));

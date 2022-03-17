@@ -14,6 +14,8 @@ Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum
 
 ### Greedy Algorithms
 
+Minimum Absolute Difference in an Array (Easy) [Problem](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/2a6ec48358d9faa29648adf6d1f45d5a1ed5adef/java/src/greedyalgorithms/MinimumAbsoluteDifferenceInAnArray.java)
+
 Max Min (Medium) [Problem](https://www.hackerrank.com/challenges/angry-children/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/6854fe1a832b71e32e602d5e1801c264f0173fd3/java/src/greedyalgorithms/MaxMin.java)
 
 Reverse Shuffle Merge (Advanced) [Problem](https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/6854fe1a832b71e32e602d5e1801c264f0173fd3/java/src/greedyalgorithms/ReverseShuffleMerge.java)
