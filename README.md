@@ -10,7 +10,7 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, etc.)
 
 ### Arrays
 
-Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/8f5b8c24946f02f349706bdd43b7012149d7d235/java/src/MinimumSwaps2.java)
+Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/8f5b8c24946f02f349706bdd43b7012149d7d235/java/src/arrays.MinimumSwaps2.java)
 
 ### String Manipulation
 
