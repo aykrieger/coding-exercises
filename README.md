@@ -18,6 +18,8 @@ Minimum Absolute Difference in an Array (Easy) [Problem](https://www.hackerrank.
 
 Luck Balance (Easy) [Problem](https://www.hackerrank.com/challenges/luck-balance/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/c1001264100f537301bbd37af1c86a2de7e83956/java/src/greedyalgorithms/LuckBalance.java)
 
+Greedy Florist (Medium) [Problem](https://www.hackerrank.com/challenges/greedy-florist/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/47392c8a842476e960bf8a0c25b5dd8dc86f8909/java/src/greedyalgorithms/GreedyFlorist.java)
+
 Max Min (Medium) [Problem](https://www.hackerrank.com/challenges/angry-children/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/6854fe1a832b71e32e602d5e1801c264f0173fd3/java/src/greedyalgorithms/MaxMin.java)
 
 Reverse Shuffle Merge (Advanced) [Problem](https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/6854fe1a832b71e32e602d5e1801c264f0173fd3/java/src/greedyalgorithms/ReverseShuffleMerge.java)
