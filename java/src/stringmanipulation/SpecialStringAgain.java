@@ -1,4 +1,4 @@
-package string.manipulation;
+package stringmanipulation;
 import java.io.*;
 import java.math.*;
 import java.security.*;
