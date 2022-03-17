@@ -9,6 +9,9 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * @see <a href="https://www.hackerrank.com/challenges/luck-balance/problem">Luck Balance</a>
+ */
 public class LuckBalance {
 
   /*

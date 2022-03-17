@@ -7,6 +7,9 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * @see <a href="https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem">Minimum Absolute Difference in an Array</a>
+ */
 public class MinimumAbsoluteDifferenceInAnArray {
 
   /*
