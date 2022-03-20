@@ -27,3 +27,7 @@ Reverse Shuffle Merge (Advanced) [Problem](https://www.hackerrank.com/challenges
 ### String Manipulation
 
 Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again) | [Solution](https://github.com/aykrieger/coding-exercises/blob/6854fe1a832b71e32e602d5e1801c264f0173fd3/java/src/stringmanipulation/SpecialStringAgain.java)
+
+### Search
+
+Swap Nodes [Algo] (Medium) [Problem](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/ca878f92638f47ffcc2ff29b1bffde5dabf32937/java/src/search/SwapNodes.java)
