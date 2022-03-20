@@ -31,3 +31,5 @@ Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/sp
 ### Search
 
 Swap Nodes [Algo] (Medium) [Problem](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/SwapNodes.java)
+
+Pairs (Medium) [Problem](https://www.hackerrank.com/challenges/pairs/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/Pairs.java)
