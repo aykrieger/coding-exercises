@@ -1,10 +1,10 @@
 # Coding Exercises
 
-Here are some solutions to coding problems I've solved.
+Here are some coding exercise problems and my solutions.
 
 Feel free to ask any questions or make suggestions!
 
-HackerRank assigns their problems a difficulty rating (Easy, Medium, Advanced, etc.). Some of the "Easy" problems are difficult, some of the "Medium" problems are straightforward, it's not very consistent.
+HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Expert, Advanced). Some of the "Easy" problems are difficult and some of the "Medium" problems are straightforward. They're not very consistent.
 
 ## HackerRank Problems
 
@@ -27,6 +27,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Advanced, e
 ### String Manipulation
 
 - Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stringmanipulation/SpecialStringAgain.java)
+
+- Common Child (Medium) [Problem](https://www.hackerrank.com/challenges/common-child/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stringmanipulation/CommonChild.java)
 
 ### Search
 
