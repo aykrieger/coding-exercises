@@ -35,3 +35,5 @@ Hash Tables: Ice Cream Parlor (Medium) [Problem](https://www.hackerrank.com/chal
 Swap Nodes [Algo] (Medium) [Problem](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/SwapNodes.java)
 
 Pairs (Medium) [Problem](https://www.hackerrank.com/challenges/pairs/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/Pairs.java)
+
+Triple Sum (Medium) [Problem](hhttps://www.hackerrank.com/challenges/triple-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/TripleSum.java)
