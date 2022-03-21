@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * @see <a href="https://www.hackerrank.com/challenges/special-palindrome-again">Special String Again</a>
+ * @see <a href="https://www.hackerrank.com/challenges/special-palindrome-again/problem">Special String Again</a>
  */
 public class SpecialStringAgain {
 

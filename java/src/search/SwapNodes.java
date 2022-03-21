@@ -6,6 +6,9 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
+/**
+ * @see <a href="https://www.hackerrank.com/challenges/swap-nodes-algo/problem">Swap Nodes</a>
+ */
 public class SwapNodes {
 
   static class Node {

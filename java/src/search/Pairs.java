@@ -8,6 +8,9 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * @see <a href="https://www.hackerrank.com/challenges/pairs/problem">Pairs</a>
+ */
 public class Pairs {
 
   /*

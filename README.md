@@ -26,9 +26,11 @@ Reverse Shuffle Merge (Advanced) [Problem](https://www.hackerrank.com/challenges
 
 ### String Manipulation
 
-Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stringmanipulation/SpecialStringAgain.java)
+Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stringmanipulation/SpecialStringAgain.java)
 
 ### Search
+
+Hash Tables: Ice Cream Parlor (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/IceCreamParlor.java)
 
 Swap Nodes [Algo] (Medium) [Problem](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/SwapNodes.java)
 
