@@ -37,3 +37,5 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Advanced, e
 - Pairs (Medium) [Problem](https://www.hackerrank.com/challenges/pairs/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/Pairs.java)
 
 - Triple Sum (Medium) [Problem](https://www.hackerrank.com/challenges/triple-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/TripleSum.java)
+
+- Minimum Time Required (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-time-required/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MinimumTimeRequired.java)
