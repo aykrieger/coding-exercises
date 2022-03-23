@@ -43,3 +43,5 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 - Triple Sum (Medium) [Problem](https://www.hackerrank.com/challenges/triple-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/TripleSum.java)
 
 - Minimum Time Required (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-time-required/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MinimumTimeRequired.java)
+
+- Maximum Subarray Sum (Hard) [Problem](https://www.hackerrank.com/challenges/maximum-subarray-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MaximumSubarraySum.java)
