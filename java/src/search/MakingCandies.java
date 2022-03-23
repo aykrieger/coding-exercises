@@ -22,9 +22,9 @@ public class MakingCandies {
     long max = 10000000000000L;
 
     while (min < max) {
-      long mid = (min + max)/2;
+      long mid = (min + max) / 2;
 
-      if (check(m , w , p , n , mid)) {
+      if (check(m, w, p, n, mid)) {
         max = mid;
       } else {
         min = mid + 1;
@@ -33,8 +33,8 @@ public class MakingCandies {
     return min;
   }
 
-  static boolean  check(long m , long w , long p , long target , long rounds) {
-    if(m >= (target + w - 1) / w) {
+  static boolean check(long m, long w, long p, long target, long rounds) {
+    if (m >= (target + w - 1) / w) {
       return true;
     }
 
@@ -45,10 +45,10 @@ public class MakingCandies {
       return false;
     }
 
-    while(true) {
+    while (true) {
 
       long rem = target - curr;
-      long required = (rem + (m * w) -1) / (m * w);
+      long required = (rem + (m * w) - 1) / (m * w);
 
       if (rounds >= required) {
         return true;
@@ -56,17 +56,17 @@ public class MakingCandies {
 
       if (curr < p) {
         rem = p - curr;
-        required = (rem  + (m * w) -1 ) / (m * w);
+        required = (rem + (m * w) - 1) / (m * w);
         rounds = rounds - required;
         if (rounds < 1) {
           return false;
         }
 
-        curr += required*m*w;
+        curr += required * m * w;
       }
 
       curr = curr - p;
-      if( m > w) {
+      if (m > w) {
         w++;
       } else {
         m++;
@@ -76,7 +76,8 @@ public class MakingCandies {
 
   public static void main(String[] args) throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(System.getenv("OUTPUT_PATH")));
 
     String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 

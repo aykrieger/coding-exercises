@@ -1,5 +1,7 @@
 package search;
 
+import static java.util.stream.Collectors.toList;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,10 +10,9 @@ import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.toList;
-
 /**
- * @see <a href="https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem">Ice Cream Parlor</a>
+ * @see <a href="https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem">Ice Cream
+ * Parlor</a>
  */
 public class IceCreamParlor {
 

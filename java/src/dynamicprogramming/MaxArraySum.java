@@ -1,6 +1,5 @@
 package dynamicprogramming;
 
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -8,8 +7,9 @@ import java.util.Scanner;
 
 /**
  * @see <a href="https://www.hackerrank.com/challenges/max-array-sum/problem">Max Array Sum</a>
- *
- * See <a href="https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/">GeeksforGeeks Max Array Sum</a> for the explanation.
+ * <p>
+ * See <a href="https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/">GeeksforGeeks
+ * Max Array Sum</a> for the explanation.
  */
 public class MaxArraySum {
 
@@ -30,7 +30,8 @@ public class MaxArraySum {
   private static final Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) throws IOException {
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(System.getenv("OUTPUT_PATH")));
 
     int n = scanner.nextInt();
     scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");

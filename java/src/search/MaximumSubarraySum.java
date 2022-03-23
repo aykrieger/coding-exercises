@@ -1,17 +1,22 @@
 package search;
 
-import java.io.*;
+import static java.util.stream.Collectors.toList;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.List;
 import java.util.TreeSet;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.toList;
-
 /**
  * To compute this in a O(n log(n)) time, you have to use some tricky modulo math.
  *
- * @see <a href="https://www.hackerrank.com/challenges/maximum-subarray-sum/problem">Maximum Subarray Sum</a>
+ * @see <a href="https://www.hackerrank.com/challenges/maximum-subarray-sum/problem">Maximum
+ * Subarray Sum</a>
  */
 class MaximumSubarraySum {
 
@@ -45,7 +50,8 @@ class MaximumSubarraySum {
 
   public static void main(String[] args) throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(System.getenv("OUTPUT_PATH")));
 
     int q = Integer.parseInt(bufferedReader.readLine().trim());
 

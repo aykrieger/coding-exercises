@@ -1,10 +1,19 @@
 package search;
 
-import java.io.*;
-import java.util.*;
-import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * @see <a href="https://www.hackerrank.com/challenges/swap-nodes-algo/problem">Swap Nodes</a>
@@ -12,13 +21,14 @@ import static java.util.stream.Collectors.toList;
 public class SwapNodes {
 
   static class Node {
+
     int value;
     int depth;
 
     Node left = null;
     Node right = null;
 
-    Node (int value, int depth) {
+    Node(int value, int depth) {
       this.value = value;
       this.depth = depth;
     }
@@ -40,7 +50,7 @@ public class SwapNodes {
     Node root = buildTree(indexes);
 
     int idx = 0;
-    while(idx < queries.size()) {
+    while (idx < queries.size()) {
       queryResult = new ArrayList<>();
       switchNodes(root, queries.get(idx));
       addToQueryResult(root);
@@ -101,7 +111,8 @@ public class SwapNodes {
 
   public static void main(String[] args) throws IOException {
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(System.getenv("OUTPUT_PATH")));
 
     int n = Integer.parseInt(bufferedReader.readLine().trim());
 
@@ -133,7 +144,6 @@ public class SwapNodes {
         .collect(toList());
 
     List<List<Integer>> result = swapNodes(indexes, queries);
-
 
     result.stream()
         .map(
