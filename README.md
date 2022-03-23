@@ -47,3 +47,7 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 - Maximum Subarray Sum (Hard) [Problem](https://www.hackerrank.com/challenges/maximum-subarray-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MaximumSubarraySum.java)
 
 - Making Candies (Hard) [Problem](https://www.hackerrank.com/challenges/making-candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MakingCandies.java)
+
+### Greedy Algorithms
+
+- Max Array Sum (Medium) [Problem](https://www.hackerrank.com/challenges/max-array-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/MaxArraySum.java)
