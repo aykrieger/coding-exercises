@@ -45,3 +45,5 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 - Minimum Time Required (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-time-required/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MinimumTimeRequired.java)
 
 - Maximum Subarray Sum (Hard) [Problem](https://www.hackerrank.com/challenges/maximum-subarray-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MaximumSubarraySum.java)
+
+- Making Candies (Hard) [Problem](https://www.hackerrank.com/challenges/making-candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MakingCandies.java)
