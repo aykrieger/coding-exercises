@@ -26,6 +26,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 ### String Manipulation
 
+- Sherlock and the Valid String (Medium) [Problem](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stringmanipulation/SherlockAndTheValidString.java)
+
 - Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stringmanipulation/SpecialStringAgain.java)
 
 - Common Child (Medium) [Problem](https://www.hackerrank.com/challenges/common-child/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stringmanipulation/CommonChild.java)
