@@ -48,9 +48,11 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Making Candies (Hard) [Problem](https://www.hackerrank.com/challenges/making-candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/search/MakingCandies.java)
 
-### Greedy Algorithms
+### Dynamic Programming
 
 - Max Array Sum (Medium) [Problem](https://www.hackerrank.com/challenges/max-array-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/MaxArraySum.java)
+
+- Abbreviation (Medium) [Problem](https://www.hackerrank.com/challenges/abbr/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/Abbreviation.java)
 
 ## Contributing
 
