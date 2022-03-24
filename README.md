@@ -54,6 +54,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Abbreviation (Medium) [Problem](https://www.hackerrank.com/challenges/abbr/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/Abbreviation.java)
 
+- Candies (Medium) [Problem](https://www.hackerrank.com/challenges/candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/Candies.java)
+
 ## Contributing
 
 This project uses the Google Style Guide [here](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml).
