@@ -62,6 +62,7 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Balanced Brackets (Medium) [Problem](https://www.hackerrank.com/challenges/balanced-brackets/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/BalancedBrackets.java)
 
+- Queues: A Tale of Two Stacks (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/QueuesATaleOfTwoStacks.java)
 
 ## Contributing
 
