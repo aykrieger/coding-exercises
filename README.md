@@ -58,6 +58,11 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Decibinary Numbers (Hard) [Problem](https://www.hackerrank.com/challenges/decibinary-numbers/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/DecibinaryNumbers.java)
 
+### Stacks and Queues
+
+- Balanced Brackets (Medium) [Problem](https://www.hackerrank.com/challenges/balanced-brackets/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/BalancedBrackets.java)
+
+
 ## Contributing
 
 This project uses the Google Style Guide [here](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml).
