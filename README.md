@@ -56,6 +56,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Candies (Medium) [Problem](https://www.hackerrank.com/challenges/candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/Candies.java)
 
+- Decibinary Numbers (Hard) [Problem](https://www.hackerrank.com/challenges/decibinary-numbers/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/dynamicprogramming/DecibinaryNumbers.java)
+
 ## Contributing
 
 This project uses the Google Style Guide [here](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml).
