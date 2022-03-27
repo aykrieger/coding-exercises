@@ -64,6 +64,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Queues: A Tale of Two Stacks (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/QueuesATaleOfTwoStacks.java)
 
+- Largest Rectangle (Medium) [Problem](https://www.hackerrank.com/challenges/largest-rectangle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/LargestRectangle.java)
+
 ## Contributing
 
 This project uses the Google Style Guide [here](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml).
