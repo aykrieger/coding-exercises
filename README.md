@@ -1,10 +1,10 @@
 # Coding Exercises
 
-Here are some coding exercise problems and my solutions.
+Here are some HackerRank problems and my solutions.
 
 Feel free to ask any questions or make suggestions!
 
-HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Expert, Advanced). Some of the "Easy" problems are difficult and some of the "Medium" problems are straightforward. They're not very consistent.
+HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Expert, Advanced). The assigned difficulty rating does not necessarily match how difficult programming the solution is. Some of the "medium" problems take 15 minutes to solve, and others take over an hour understanding their related problem space (such as the [longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)). 
 
 ## HackerRank Problems
 
@@ -66,6 +66,10 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Largest Rectangle (Medium) [Problem](https://www.hackerrank.com/challenges/largest-rectangle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/LargestRectangle.java)
 
+- Min Max Riddle (Medium) [Problem](https://www.hackerrank.com/challenges/min-max-riddle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/MinMaxRiddle.java)
+
 ## Contributing
+
+Feel free to create a GitHub Issue or PR.
 
 This project uses the Google Style Guide [here](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml).
