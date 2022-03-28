@@ -68,6 +68,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Min Max Riddle (Medium) [Problem](https://www.hackerrank.com/challenges/min-max-riddle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/MinMaxRiddle.java)
 
+- Castle on the Grid (Medium) [Problem](https://www.hackerrank.com/challenges/castle-on-the-grid/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/CastleOnTheGrid.java)
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
