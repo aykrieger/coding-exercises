@@ -70,6 +70,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Castle on the Grid (Medium) [Problem](https://www.hackerrank.com/challenges/castle-on-the-grid/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/CastleOnTheGrid.java)
 
+- Poisonous Plants (Hard) [Problem](https://www.hackerrank.com/challenges/poisonous-plants/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/stacksandqueues/PoisonousPlants.java)
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.

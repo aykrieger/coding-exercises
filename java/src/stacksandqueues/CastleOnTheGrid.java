@@ -10,6 +10,10 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.stream.IntStream;
 
+/**
+ * @see <a href="https://www.hackerrank.com/challenges/castle-on-the-grid/problem">Castle on the
+ * Grid</a>
+ */
 public class CastleOnTheGrid {
 
   /*
