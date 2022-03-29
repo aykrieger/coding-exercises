@@ -10,71 +10,71 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 ### Arrays
 
-- Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.arrays/MinimumSwaps2.java)
+- Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/MinimumSwaps2.java)
 
 ### Greedy Algorithms
 
-- Minimum Absolute Difference in an Array (Easy) [Problem](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.greedyalgorithms/MinimumAbsoluteDifferenceInAnArray.java)
+- Minimum Absolute Difference in an Array (Easy) [Problem](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/greedyalgorithms/MinimumAbsoluteDifferenceInAnArray.java)
 
-- Luck Balance (Easy) [Problem](https://www.hackerrank.com/challenges/luck-balance/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.greedyalgorithms/LuckBalance.java)
+- Luck Balance (Easy) [Problem](https://www.hackerrank.com/challenges/luck-balance/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/greedyalgorithms/LuckBalance.java)
 
-- Greedy Florist (Medium) [Problem](https://www.hackerrank.com/challenges/greedy-florist/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.greedyalgorithms/GreedyFlorist.java)
+- Greedy Florist (Medium) [Problem](https://www.hackerrank.com/challenges/greedy-florist/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/greedyalgorithms/GreedyFlorist.java)
 
-- Max Min (Medium) [Problem](https://www.hackerrank.com/challenges/angry-children/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.greedyalgorithms/MaxMin.java)
+- Max Min (Medium) [Problem](https://www.hackerrank.com/challenges/angry-children/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/greedyalgorithms/MaxMin.java)
 
-- Reverse Shuffle Merge (Advanced) [Problem](https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.greedyalgorithms/ReverseShuffleMerge.java)
+- Reverse Shuffle Merge (Advanced) [Problem](https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/greedyalgorithms/ReverseShuffleMerge.java)
 
 ### String Manipulation
 
-- Sherlock and the Valid String (Medium) [Problem](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stringmanipulation/SherlockAndTheValidString.java)
+- Sherlock and the Valid String (Medium) [Problem](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/SherlockAndTheValidString.java)
 
-- Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stringmanipulation/SpecialStringAgain.java)
+- Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/SpecialStringAgain.java)
 
-- Common Child (Medium) [Problem](https://www.hackerrank.com/challenges/common-child/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stringmanipulation/CommonChild.java)
+- Common Child (Medium) [Problem](https://www.hackerrank.com/challenges/common-child/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/CommonChild.java)
 
 ### Search
 
-- Hash Tables: Ice Cream Parlor (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.search/IceCreamParlor.java)
+- Hash Tables: Ice Cream Parlor (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/search/IceCreamParlor.java)
 
-- Swap Nodes [Algo] (Medium) [Problem](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.search/SwapNodes.java)
+- Swap Nodes [Algo] (Medium) [Problem](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/search/SwapNodes.java)
 
-- Pairs (Medium) [Problem](https://www.hackerrank.com/challenges/pairs/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.search/Pairs.java)
+- Pairs (Medium) [Problem](https://www.hackerrank.com/challenges/pairs/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/search/Pairs.java)
 
-- Triple Sum (Medium) [Problem](https://www.hackerrank.com/challenges/triple-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.search/TripleSum.java)
+- Triple Sum (Medium) [Problem](https://www.hackerrank.com/challenges/triple-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/search/TripleSum.java)
 
-- Minimum Time Required (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-time-required/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.search/MinimumTimeRequired.java)
+- Minimum Time Required (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-time-required/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/search/MinimumTimeRequired.java)
 
-- Maximum Subarray Sum (Hard) [Problem](https://www.hackerrank.com/challenges/maximum-subarray-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.search/MaximumSubarraySum.java)
+- Maximum Subarray Sum (Hard) [Problem](https://www.hackerrank.com/challenges/maximum-subarray-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/search/MaximumSubarraySum.java)
 
-- Making Candies (Hard) [Problem](https://www.hackerrank.com/challenges/making-candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.search/MakingCandies.java)
+- Making Candies (Hard) [Problem](https://www.hackerrank.com/challenges/making-candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/search/MakingCandies.java)
 
 ### Dynamic Programming
 
-- Max Array Sum (Medium) [Problem](https://www.hackerrank.com/challenges/max-array-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.dynamicprogramming/MaxArraySum.java)
+- Max Array Sum (Medium) [Problem](https://www.hackerrank.com/challenges/max-array-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dynamicprogramming/MaxArraySum.java)
 
-- Abbreviation (Medium) [Problem](https://www.hackerrank.com/challenges/abbr/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.dynamicprogramming/Abbreviation.java)
+- Abbreviation (Medium) [Problem](https://www.hackerrank.com/challenges/abbr/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dynamicprogramming/Abbreviation.java)
 
-- Candies (Medium) [Problem](https://www.hackerrank.com/challenges/candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.dynamicprogramming/Candies.java)
+- Candies (Medium) [Problem](https://www.hackerrank.com/challenges/candies/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dynamicprogramming/Candies.java)
 
-- Decibinary Numbers (Hard) [Problem](https://www.hackerrank.com/challenges/decibinary-numbers/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.dynamicprogramming/DecibinaryNumbers.java)
+- Decibinary Numbers (Hard) [Problem](https://www.hackerrank.com/challenges/decibinary-numbers/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dynamicprogramming/DecibinaryNumbers.java)
 
 ### Stacks and Queues
 
-- Balanced Brackets (Medium) [Problem](https://www.hackerrank.com/challenges/balanced-brackets/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stacksandqueues/BalancedBrackets.java)
+- Balanced Brackets (Medium) [Problem](https://www.hackerrank.com/challenges/balanced-brackets/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stacksandqueues/BalancedBrackets.java)
 
-- Queues: A Tale of Two Stacks (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stacksandqueues/QueuesATaleOfTwoStacks.java)
+- Queues: A Tale of Two Stacks (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stacksandqueues/QueuesATaleOfTwoStacks.java)
 
-- Largest Rectangle (Medium) [Problem](https://www.hackerrank.com/challenges/largest-rectangle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stacksandqueues/LargestRectangle.java)
+- Largest Rectangle (Medium) [Problem](https://www.hackerrank.com/challenges/largest-rectangle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stacksandqueues/LargestRectangle.java)
 
-- Min Max Riddle (Medium) [Problem](https://www.hackerrank.com/challenges/min-max-riddle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stacksandqueues/MinMaxRiddle.java)
+- Min Max Riddle (Medium) [Problem](https://www.hackerrank.com/challenges/min-max-riddle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stacksandqueues/MinMaxRiddle.java)
 
-- Castle on the Grid (Medium) [Problem](https://www.hackerrank.com/challenges/castle-on-the-grid/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stacksandqueues/CastleOnTheGrid.java)
+- Castle on the Grid (Medium) [Problem](https://www.hackerrank.com/challenges/castle-on-the-grid/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stacksandqueues/CastleOnTheGrid.java)
 
-- Poisonous Plants (Hard) [Problem](https://www.hackerrank.com/challenges/poisonous-plants/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stacksandqueues/PoisonousPlants.java)
+- Poisonous Plants (Hard) [Problem](https://www.hackerrank.com/challenges/poisonous-plants/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stacksandqueues/PoisonousPlants.java)
 
 ### Graphs
 
-- Roads and Libraries (Medium) [Problem](https://www.hackerrank.com/challenges/torque-and-development/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.graphs/RoadsAndLibraries.java)
+- Roads and Libraries (Medium) [Problem](https://www.hackerrank.com/challenges/torque-and-development/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/RoadsAndLibraries.java)
 
 
 ## Contributing
