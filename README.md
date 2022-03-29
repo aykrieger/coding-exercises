@@ -72,6 +72,11 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Poisonous Plants (Hard) [Problem](https://www.hackerrank.com/challenges/poisonous-plants/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.stacksandqueues/PoisonousPlants.java)
 
+### Graphs
+
+- Roads and Libraries (Medium) [Problem](https://www.hackerrank.com/challenges/torque-and-development/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank.graphs/RoadsAndLibraries.java)
+
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
