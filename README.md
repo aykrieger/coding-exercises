@@ -78,6 +78,7 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Find the Nearest Clone (Medium) [Problem](https://www.hackerrank.com/challenges/find-the-nearest-clone/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/FindTheNearestClone.java)
 
+- BFS: Shortest Reach in a Graph (Hard) [Problem](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/BFSShortestReachInAGraph.java)
 
 ## Contributing
 
