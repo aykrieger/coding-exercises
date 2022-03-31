@@ -80,6 +80,9 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - BFS: Shortest Reach in a Graph (Hard) [Problem](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/BFSShortestReachInAGraph.java)
 
+- DFS: Connected Cell in a Grid (Hard) [Problem](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/DFSConnectedCellInAGrid.java)
+
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
