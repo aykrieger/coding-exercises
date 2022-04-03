@@ -84,6 +84,9 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Matrix (Hard) [Problem](https://www.hackerrank.com/challenges/matrix/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/Matrix.java)
 
+### Trees
+
+- Tree: Height of a Binary Tree (Easy) [Problem](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/TreeHeightOfABinaryTree.java)
 
 ## Contributing
 
