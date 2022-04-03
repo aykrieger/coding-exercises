@@ -90,6 +90,9 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Binary Search Tree: Lowest Common Ancestor (Easy) [Problem](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/BinarySearchTreeLowestCommonAncestor.java)
 
+- Trees: Is This a Binary Search Tree? (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-is-binary-search-tree/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/TreesIsThisABinarySearchTree.java)
+
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.

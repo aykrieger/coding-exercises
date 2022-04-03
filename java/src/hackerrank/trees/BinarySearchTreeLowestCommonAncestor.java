@@ -3,7 +3,8 @@ package hackerrank.trees;
 import java.util.Scanner;
 
 /**
- * @see <a href="https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem">Matrix</a>
+ * @see <a href="https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem">Binary
+ * Search Tree: Lowest Common Ancestor</a>
  */
 public class BinarySearchTreeLowestCommonAncestor {
 

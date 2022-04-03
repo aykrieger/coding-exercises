@@ -3,7 +3,8 @@ package hackerrank.trees;
 import java.util.Scanner;
 
 /**
- * @see <a href="https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem">Matrix</a>
+ * @see <a href="https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem">Tree:
+ * Height of a Binary Tree</a>
  */
 public class TreeHeightOfABinaryTree {
 
