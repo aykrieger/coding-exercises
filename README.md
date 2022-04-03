@@ -82,6 +82,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - DFS: Connected Cell in a Grid (Hard) [Problem](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/DFSConnectedCellInAGrid.java)
 
+- Matrix (Hard) [Problem](https://www.hackerrank.com/challenges/matrix/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/graphs/Matrix.java)
+
 
 ## Contributing
 
