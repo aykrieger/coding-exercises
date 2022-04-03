@@ -88,6 +88,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Tree: Height of a Binary Tree (Easy) [Problem](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/TreeHeightOfABinaryTree.java)
 
+- Binary Search Tree: Lowest Common Ancestor (Easy) [Problem](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/BinarySearchTreeLowestCommonAncestor.java)
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
