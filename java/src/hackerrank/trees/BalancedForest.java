@@ -120,7 +120,6 @@ public class BalancedForest {
     for (Node neighbor : curr.neighbors) {
       solve(neighbor);
     }
-    ;
 
     // The current node sum is no longer available in the recursive set
     sumSetInRecursiveStack.remove(curr.sum);

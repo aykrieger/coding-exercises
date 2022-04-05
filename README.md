@@ -96,6 +96,9 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Balanced Forest (Hard) [Problem](https://www.hackerrank.com/challenges/balanced-forest/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/BalancedForest.java)
 
+### Linked Lists
+
+- Insert a node at a specific position in a linked list (Easy) [Problem](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/InsertANodeAtASpecificPositionInALinkedList.java)
 
 ## Contributing
 
