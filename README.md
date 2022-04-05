@@ -100,6 +100,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Insert a node at a specific position in a linked list (Easy) [Problem](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/InsertANodeAtASpecificPositionInALinkedList.java)
 
+- Inserting a Node Into a Sorted Doubly Linked List (Easy) [Problem](https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/InsertingANodeIntoASortedDoublyLinkedList.java)
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
