@@ -106,6 +106,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Find Merge Point of Two Lists (Easy) [Problem](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/FindMergePointOfTwoLists.java)
 
+- Linked Lists: Detect a Cycle (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/LinkedListsDetectACycle.java)
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
