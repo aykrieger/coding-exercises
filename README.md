@@ -104,6 +104,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Reverse a doubly linked list (Easy) [Problem](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/ReverseADoublyLinkedList.java)
 
+- Find Merge Point of Two Lists (Easy) [Problem](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/FindMergePointOfTwoLists.java)
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
