@@ -94,6 +94,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Tree: Huffman Decoding (Medium) [Problem](https://www.hackerrank.com/challenges/tree-huffman-decoding/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/TreeHuffmanDecoding.java)
 
+- Balanced Forest (Hard) [Problem](https://www.hackerrank.com/challenges/balanced-forest/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/trees/BalancedForest.java)
+
 
 ## Contributing
 
