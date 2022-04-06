@@ -108,6 +108,11 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Linked Lists: Detect a Cycle (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/linkedlists/LinkedListsDetectACycle.java)
 
+### Recursion and Backtracking
+
+- Recursion: Fibonacci Numbers (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/recursionandbacktracking/RecursionFibonacciNumbers.java)
+
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
