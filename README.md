@@ -114,6 +114,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Recursion: Davis' Staircase (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/recursionandbacktracking/RecursionDavisStaircase.java)
 
+- Crossword Puzzle (Medium) [Problem](https://www.hackerrank.com/challenges/crossword-puzzle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/recursionandbacktracking/CrosswordPuzzle.java)
+
 
 ## Contributing
 
