@@ -116,6 +116,7 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Crossword Puzzle (Medium) [Problem](https://www.hackerrank.com/challenges/crossword-puzzle/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/recursionandbacktracking/CrosswordPuzzle.java)
 
+- Recursive Digit Sum (Medium) [Problem](https://www.hackerrank.com/challenges/recursive-digit-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/recursionandbacktracking/RecursiveDigitSum.java)
 
 ## Contributing
 
