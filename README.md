@@ -118,6 +118,12 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Recursive Digit Sum (Medium) [Problem](https://www.hackerrank.com/challenges/recursive-digit-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/recursionandbacktracking/RecursiveDigitSum.java)
 
+### Miscellaneous
+
+- Flipping Bits (Easy) [Problem](https://www.hackerrank.com/challenges/flipping-bits/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/FlippingBits.java)
+
+
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
