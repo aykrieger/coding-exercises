@@ -122,6 +122,9 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Flipping Bits (Easy) [Problem](https://www.hackerrank.com/challenges/flipping-bits/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/FlippingBits.java)
 
+- Time Complexity: Primality (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-big-o/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/TimeComplexityPrimality.java)
+
+
 
 
 ## Contributing
