@@ -124,6 +124,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Time Complexity: Primality (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-big-o/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/TimeComplexityPrimality.java)
 
+- Friend Circle Queries (Medium) [Problem](https://www.hackerrank.com/challenges/friend-circle-queries/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/FriendCircleQueries.java)
+
 
 
 
