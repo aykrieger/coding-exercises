@@ -126,6 +126,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Friend Circle Queries (Medium) [Problem](https://www.hackerrank.com/challenges/friend-circle-queries/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/FriendCircleQueries.java)
 
+- Maximum XOR (Medium) [Problem](https://www.hackerrank.com/challenges/maximum-xor/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/MaximumXor.java)
+
 
 
 
