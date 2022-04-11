@@ -41,6 +41,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Count Triplets (Medium) [Problem](https://www.hackerrank.com/challenges/count-triplets-1/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/CountTriplets.java)
 
+- Frequency Queries (Medium) [Problem](https://www.hackerrank.com/challenges/frequency-queries/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/FrequencyQueries.java)
+
 
 ### Greedy Algorithms
 
