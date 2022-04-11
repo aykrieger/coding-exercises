@@ -39,6 +39,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Sherlock and Anagrams (Medium) [Problem](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/SherlockAndAnagrams.java)
 
+- Count Triplets (Medium) [Problem](https://www.hackerrank.com/challenges/count-triplets-1/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/CountTriplets.java)
+
 
 ### Greedy Algorithms
 
