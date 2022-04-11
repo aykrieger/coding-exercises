@@ -14,6 +14,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Counting Valleys (Easy) [Problem](https://www.hackerrank.com/challenges/counting-valleys/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/warmupchallenges/CountingValleys.java)
 
+- Jumping on the Clouds (Easy) [Problem](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/warmupchallenges/JumpingOnTheClouds.java)
+
 
 
 ### Arrays
