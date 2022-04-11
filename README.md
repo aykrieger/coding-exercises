@@ -37,6 +37,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Two Strings (Easy) [Problem](https://www.hackerrank.com/challenges/two-strings/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/TwoStrings.java)
 
+- Sherlock and Anagrams (Medium) [Problem](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/SherlockAndAnagrams.java)
+
 
 ### Greedy Algorithms
 
