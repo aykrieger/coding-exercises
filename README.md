@@ -8,6 +8,14 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 ## HackerRank Problems
 
+### Warm-up Challenges
+
+- Sales by Match (Easy) [Problem](https://www.hackerrank.com/challenges/sock-merchant/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/warmupchallenges/SalesByMatch.java)
+
+- Counting Valleys (Easy) [Problem](https://www.hackerrank.com/challenges/counting-valleys/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/warmupchallenges/CountingValleys.java)
+
+
+
 ### Arrays
 
 - Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/MinimumSwaps2.java)
