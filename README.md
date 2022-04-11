@@ -16,6 +16,7 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Jumping on the Clouds (Easy) [Problem](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/warmupchallenges/JumpingOnTheClouds.java)
 
+- Repeated String (Easy) [Problem](https://www.hackerrank.com/challenges/repeated-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/warmupchallenges/RepeatedString.java)
 
 
 ### Arrays
