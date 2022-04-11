@@ -23,6 +23,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - 2D Array - DS (Easy) [Problem](https://www.hackerrank.com/challenges/2d-array/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/TwoDArrayDS.java)
 
+- Arrays: Left Rotation (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/ArraysLeftRotation.java)
+
 - Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/MinimumSwaps2.java)
 
 ### Greedy Algorithms
