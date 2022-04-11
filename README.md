@@ -35,6 +35,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Hash Tables: Ransom Note (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-ransom-note/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/HashTablesRansomNote.java)
 
+- Two Strings (Easy) [Problem](https://www.hackerrank.com/challenges/two-strings/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/TwoStrings.java)
+
 
 ### Greedy Algorithms
 
