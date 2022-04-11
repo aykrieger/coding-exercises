@@ -25,3 +25,6 @@ hs_err_pid*
 # IntelliJ
 **/.idea/*
 *.iml
+
+# Compiled
+target/*
