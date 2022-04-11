@@ -29,6 +29,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Minimum Swaps 2 (Medium) [Problem](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/MinimumSwaps2.java)
 
+- Array Manipulation (Hard) [Problem](https://www.hackerrank.com/challenges/crush/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/ArrayManipulation.java)
+
 ### Greedy Algorithms
 
 - Minimum Absolute Difference in an Array (Easy) [Problem](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/greedyalgorithms/MinimumAbsoluteDifferenceInAnArray.java)
