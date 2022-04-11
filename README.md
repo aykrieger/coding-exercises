@@ -31,6 +31,11 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Array Manipulation (Hard) [Problem](https://www.hackerrank.com/challenges/crush/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/arrays/ArrayManipulation.java)
 
+### Dictionaries and Hashmaps
+
+- Hash Tables: Ransom Note (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-ransom-note/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/HashTablesRansomNote.java)
+
+
 ### Greedy Algorithms
 
 - Minimum Absolute Difference in an Array (Easy) [Problem](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/greedyalgorithms/MinimumAbsoluteDifferenceInAnArray.java)
