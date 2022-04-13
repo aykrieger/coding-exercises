@@ -49,6 +49,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Mark and Toys (Easy) [Problem](https://www.hackerrank.com/challenges/mark-and-toys/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/MarkAndToys.java)
 
+- Sorting: Comparator (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/SortingComparator.java)
+
 
 ### Greedy Algorithms
 
