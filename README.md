@@ -6,7 +6,7 @@ Feel free to ask any questions or make suggestions!
 
 HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Expert, Advanced). The assigned difficulty rating does not necessarily match how difficult programming the solution is. Some of the "medium" problems take 15 minutes to solve, and others take over an hour understanding their related problem space (such as the [longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)). 
 
-## HackerRank Problems
+## HackerRank (69 Problems)
 
 ### Warm-up Challenges
 
