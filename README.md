@@ -72,6 +72,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 ### String Manipulation
 
+- Strings: Making Anagrams (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/StringsMakingAnagrams.java)
+
 - Sherlock and the Valid String (Medium) [Problem](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/SherlockAndTheValidString.java)
 
 - Special String Again (Medium) [Problem](https://www.hackerrank.com/challenges/special-palindrome-again/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/SpecialStringAgain.java)
