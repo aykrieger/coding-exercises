@@ -43,8 +43,6 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Frequency Queries (Medium) [Problem](https://www.hackerrank.com/challenges/frequency-queries/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/FrequencyQueries.java)
 
-- Merge Sort: Counting Inversions (Hard) [Problem](https://www.hackerrank.com/challenges/ctci-merge-sort/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/MergeSortCountingInversions.java)
-
 ### Sorting
 
 - Sorting: Bubble Sort (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-bubble-sort/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/SortingBubbleSort.java)
@@ -73,6 +71,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 ### String Manipulation
 
 - Strings: Making Anagrams (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/StringsMakingAnagrams.java)
+
+- Alternating Characters (Easy) [Problem](https://www.hackerrank.com/challenges/alternating-characters/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/AlternatingCharacters.java)
 
 - Sherlock and the Valid String (Medium) [Problem](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/stringmanipulation/SherlockAndTheValidString.java)
 
