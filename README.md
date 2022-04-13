@@ -43,6 +43,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Frequency Queries (Medium) [Problem](https://www.hackerrank.com/challenges/frequency-queries/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/FrequencyQueries.java)
 
+- Merge Sort: Counting Inversions (Hard) [Problem](https://www.hackerrank.com/challenges/ctci-merge-sort/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/MergeSortCountingInversions.java)
+
 ### Sorting
 
 - Sorting: Bubble Sort (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-bubble-sort/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/SortingBubbleSort.java)
@@ -52,6 +54,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 - Sorting: Comparator (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/SortingComparator.java)
 
 - Fraudulent Activity Notifications (Medium) [Problem](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/FraudulentActivityNotifications.java)
+
+- Merge Sort: Counting Inversions (Hard) [Problem](https://www.hackerrank.com/challenges/ctci-merge-sort/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/MergeSortCountingInversions.java)
 
 
 ### Greedy Algorithms

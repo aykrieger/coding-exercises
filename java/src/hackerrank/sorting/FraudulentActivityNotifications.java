@@ -11,16 +11,17 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
- * @see <a href="https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem">Fraudulent
+ * @see <a
+ * href="https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem">Fraudulent
  * Activity Notifications</a>
  */
 public class FraudulentActivityNotifications {
 
   static int activityNotifications(List<Integer> expenditure, int d) {
-    ;
     int[] arr = new int[expenditure.size()];
-    for (int i = 0; i < expenditure.size(); i++)
+    for (int i = 0; i < expenditure.size(); i++) {
       arr[i] = expenditure.get(i);
+    }
     int notificationCount = 0;
 
     int[] data = new int[201];
