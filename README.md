@@ -43,6 +43,10 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Frequency Queries (Medium) [Problem](https://www.hackerrank.com/challenges/frequency-queries/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/dictionariesandhashmaps/FrequencyQueries.java)
 
+### Sorting
+
+- Sorting: Bubble Sort (Easy) [Problem](https://www.hackerrank.com/challenges/ctci-bubble-sort/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/SortingBubbleSort.java)
+
 
 ### Greedy Algorithms
 
