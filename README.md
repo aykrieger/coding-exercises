@@ -51,6 +51,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Sorting: Comparator (Medium) [Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/SortingComparator.java)
 
+- Fraudulent Activity Notifications (Medium) [Problem](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/sorting/FraudulentActivityNotifications.java)
+
 
 ### Greedy Algorithms
 
