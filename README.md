@@ -6,7 +6,7 @@ Feel free to ask any questions or make suggestions!
 
 HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Expert, Advanced). The assigned difficulty rating does not necessarily match how difficult programming the solution is. Some of the "medium" problems take 15 minutes to solve, and others take over an hour understanding their related problem space (such as the [longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)). 
 
-## HackerRank (69 Problems)
+## HackerRank (70 Problems)
 
 ### Warm-up Challenges
 
@@ -176,8 +176,9 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Maximum XOR (Medium) [Problem](https://www.hackerrank.com/challenges/maximum-xor/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/hackerrank/miscellaneous/MaximumXor.java)
 
+### SQL
 
-
+- Employee Names (Easy) [Problem](https://www.hackerrank.com/challenges/name-of-employees/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/sql/employee-names.sql)
 
 ## Contributing
 
