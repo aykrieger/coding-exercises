@@ -180,6 +180,12 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Employee Names (Easy) [Problem](https://www.hackerrank.com/challenges/name-of-employees/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/sql/employee-names.sql)
 
+## LeetCode (1 Problem)
+
+- K-diff Pairs in an Array (Medium) [Problem](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/java/src/leetcode/KDiffPairsInAnArray.java)
+
+
+
 ## Contributing
 
 Feel free to create a GitHub Issue or PR.
