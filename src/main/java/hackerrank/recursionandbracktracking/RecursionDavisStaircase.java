@@ -1,4 +1,4 @@
-package hackerrank.recursionandbacktracking;
+package hackerrank.recursionandbracktracking;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
