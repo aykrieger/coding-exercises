@@ -22,6 +22,4 @@ public class FirstNonDuplicateTest {
     firstNonDuplicate.add(12);
     assertEquals(-1, firstNonDuplicate.firstNonDuplicate());
   }
-
-
 }

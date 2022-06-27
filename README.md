@@ -18,6 +18,8 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Repeated String (Easy) [Problem](https://www.hackerrank.com/challenges/repeated-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/hackerrank/warmupchallenges/RepeatedString.java)
 
+- A Very Big Sum (Easy) [Problem](https://www.hackerrank.com/challenges/a-very-big-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/hackerrank/warmupchallenges/AVeryBigSum.java)
+
 
 ### Arrays
 
