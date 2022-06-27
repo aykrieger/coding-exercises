@@ -184,7 +184,9 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - K-diff Pairs in an Array (Medium) [Problem](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/leetcode/KDiffPairsInAnArray.java)
 
+## aykrieger (1 Problem)
 
+-  First Non-Duplicate [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/aykrieger/FirstNonDuplicate.java)
 
 ## Contributing
 
