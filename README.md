@@ -6,7 +6,7 @@ Feel free to ask any questions or make suggestions!
 
 HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Expert, Advanced). The assigned difficulty rating does not necessarily match how difficult programming the solution is. Some of the "medium" problems take 15 minutes to solve, and others take over an hour understanding their related problem space (such as the [longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)). 
 
-## HackerRank (70 Problems)
+## HackerRank (71 Problems)
 
 ### Warm-up Challenges
 
@@ -19,7 +19,6 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 - Repeated String (Easy) [Problem](https://www.hackerrank.com/challenges/repeated-string/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/hackerrank/warmupchallenges/RepeatedString.java)
 
 - A Very Big Sum (Easy) [Problem](https://www.hackerrank.com/challenges/a-very-big-sum/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/hackerrank/warmupchallenges/AVeryBigSum.java)
-
 
 ### Arrays
 
@@ -182,9 +181,11 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Employee Names (Easy) [Problem](https://www.hackerrank.com/challenges/name-of-employees/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/sql/employee-names.sql)
 
-## LeetCode (1 Problem)
+## LeetCode (2 Problems)
 
 - K-diff Pairs in an Array (Medium) [Problem](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/leetcode/KDiffPairsInAnArray.java)
+
+- Longest Substring Without Repeating Characters (Medium) [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/leetcode/LongestSubstringWithoutRepeatingCharacters.java)
 
 ## aykrieger (1 Problem)
 
