@@ -181,11 +181,13 @@ HackerRank assigns their problems a difficulty rating (Easy, Medium, Hard, Exper
 
 - Employee Names (Easy) [Problem](https://www.hackerrank.com/challenges/name-of-employees/problem) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/sql/employee-names.sql)
 
-## LeetCode (2 Problems)
+## LeetCode (3 Problems)
 
 - K-diff Pairs in an Array (Medium) [Problem](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/leetcode/KDiffPairsInAnArray.java)
 
 - Longest Substring Without Repeating Characters (Medium) [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/leetcode/LongestSubstringWithoutRepeatingCharacters.java)
+
+- Restore IP Addresses (Medium) [Problem](https://leetcode.com/problems/restore-ip-addresses/) | [Solution](https://github.com/aykrieger/coding-exercises/blob/master/src/main/java/leetcode/RestoreIPAddresses.java)
 
 ## aykrieger (1 Problem)
 
